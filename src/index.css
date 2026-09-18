@@ -76,7 +76,7 @@ h2 {
 }
 
 h1 {
-  font-size: 56px;
+  /* font-size: 56px; */
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {
@@ -110,4 +110,27 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.infobox {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid;
+  margin: 16px 0;
+}
+
+.infobox-hint {
+  background-color: #CEFCBB;
+  color: #349C07;
+}
+
+.warning--low {
+  border-color: #F48B0B;
+  background-color: #FCF1BB;
+  color: #F48B0B;
+}
+.warning--high {
+  border-color: #F40B0B;
+  background-color: #FCBBBB;
+  color: #F40B0B;
 }
