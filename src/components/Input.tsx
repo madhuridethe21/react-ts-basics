@@ -4,11 +4,11 @@ type InputProps = {
     label: string;
     id: string;
 }& ComponentPropsWithRef<'input'>; 
-export default function Input({label, id}: InputProps) {
+export default function Input({label, id, name}: InputProps) {
     return(
         <p>
             <label htmlFor={id}>{label}</label>
-            <input id={id} type="text"></input>
+            <input name={name} id={id} type="text"></input>
         </p>
     )
 }
